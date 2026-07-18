@@ -1,0 +1,13 @@
+Giải thích các câu lệnh 
+
++ git init: đây là câu lệnh để khởi tạo repository ở local, đưa folder và các file bên trong vào vùng working directory.
+
++ git add <file name>: add các file có tên tương ứng vào vùng staging area để tạo các commit.
+
++ git add . : Add toàn bộ file hoặc các file còn lại ở vùng working directory vào vùng staging area để tạo các commit.
+
++ git commit -m "message": đưa các file đang ở vùng staging area vào trong 1 commit ở vùng repository 
+để sẵn sàng push lên repository online trên github. 
+
+
+
