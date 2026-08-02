@@ -1,0 +1,8 @@
+git commit --amend: mở trình soạn thảo văn bản (VIM) để edit thông điệp của commit gần nhất
+
+git commit --amend -m"<message>": đổi tên cho commit.
+
+git restore --staged <file>: đưa file bất kỳ từ vùng staging area về vùng working directory.
+
+git reset HEAD~1: xóa commit gần nhất và đưa toàn bộ file trong commit đó về vùng working directory.
+
