@@ -18,7 +18,7 @@ test('Bài học 4: Personal notes', async ({ page }) => {
             { Title: 'dblclick', Content: 'Hàm dblclick dùng để thực hiện double click (nhấp đúp chuột) vào phần tử trên trang web' },
             { Title: 'dragAndDrop', Content: 'Hàm dragAndDrop dùng để kéo một phần tử từ vị trí nguồn và thả vào vị trí đích trên trang web' },
         ];
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < personalNote.length; i++) {
             await page.locator('//input[@id="note-title"]').fill(personalNote[i].Title);
             await page.locator('//textarea[@id="note-content"]').fill(personalNote[i].Content);
             await page.locator('//button[@id="add-note"]').click();
